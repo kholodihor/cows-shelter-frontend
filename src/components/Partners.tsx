@@ -10,11 +10,6 @@ import Slider from '@/components/Slider';
 import PartnersModal from './modals/PartnersModal';
 import { openModal } from '@/store/slices/modalSlice';
 import Loader from './admin/Loader';
-import {
-  Partner,
-  fetchPartnersWithPagination
-} from '@/store/slices/partnersSlice';
-import { createImgUrl } from '@/utils/createFileUrl';
 
 const Partners = () => {
   const { t } = useTranslation();
@@ -29,6 +24,8 @@ const Partners = () => {
   const type = useAppSelector((state) => state.modals.type);
   const isModalOpen = useAppSelector((state) => state.modals.isModalOpen);
   const totalLength = partners.length;
+
+  console.log(currentPage);
 
   const { ref, inView } = useInView({
     threshold: 0.5

@@ -12,7 +12,6 @@ import {
 import { Image } from '@/store/slices/gallerySlice';
 import { useAppDispatch, useAppSelector } from '@/store/hook';
 import { useTranslation } from 'react-i18next';
-import { excursions } from '@/data/excursions';
 
 type ExcursionsModalProps = {
   isOpen: boolean;

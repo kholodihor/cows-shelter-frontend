@@ -6,7 +6,6 @@ import { useAppDispatch, useAppSelector } from '@/store/hook';
 import { openModal } from '@/store/slices/modalSlice';
 import { setActiveLink } from '@/store/slices/observationSlice';
 import { useInView } from 'react-intersection-observer';
-import { fetchImagesWithPagination } from '@/store/slices/gallerySlice';
 import { images } from '@/data/gallery';
 
 import ShareIcon from '../icons/ShareIcon';

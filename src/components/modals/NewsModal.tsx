@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import { closeModal } from '@/store/slices/modalSlice';
 import CloseIcon from '../icons/CloseIconMenu';
 import iconCalendar from '@/assets/icons/icon_calendar.svg';
-import { newsItems } from '@/data/newsItems';
 import { Post } from '@/store/slices/newsSlice';
 
 type NewsModalProps = {

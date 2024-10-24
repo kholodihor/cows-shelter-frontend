@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import ProtectedRoute from './pages/admin/ProtectedRoute';
 import AdminPage from './pages/admin';
 import News from './pages/admin/news';
 import AddNews from './pages/admin/news/add';

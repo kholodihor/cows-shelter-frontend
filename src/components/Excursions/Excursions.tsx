@@ -27,6 +27,8 @@ const Excursions = () => {
   const isModalOpen = useAppSelector((state) => state.modals.isModalOpen);
   const totalLength = excursions.length;
 
+  console.log(currentPage);
+
   const { ref, inView } = useInView({
     threshold: 0.5
   });
